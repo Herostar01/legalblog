@@ -8,7 +8,6 @@ const Sidebar = () => {
     <div className="sidebar" >
 
         <div className="sideBarItem">
-
             <span className="sideBarTitle">
                 ABOUT ME
             </span>
@@ -16,7 +15,10 @@ const Sidebar = () => {
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure sunt voluptatem minus eius nemo quisquam?
             </p>
+        </div>
 
+        <div className="sidebarItem" >  
+            <span> CATEGORIES </span>
         </div>
 
     </div>
