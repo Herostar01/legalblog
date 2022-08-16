@@ -1,5 +1,6 @@
-import NavBar from "./navbar/NavBar";
+import NavBar from "./components/navbar/NavBar";
 import Home from "./pages/home/Home";
+import Single from "./pages/single/Single";
 
 
 function App() {
@@ -8,10 +9,12 @@ function App() {
 
       < NavBar />
 
+      <Single />
+
       <Home />
-      <h1>
-        The Daily Rana
-      </h1>
+      
+      
+      
       
 
     </div>
